@@ -18,3 +18,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('job', 'JobController@index')->name('job');
+Route::get('job/{id}', 'JobController@show')->name('job.detail');

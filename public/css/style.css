@@ -1,0 +1,42 @@
+.navbar {
+    background-color: #2B7FC3;
+    color: #ffffff;
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+    /* background-image: url('../images/logo.png'); */
+}
+
+.navbar a {
+    color: #ffffff !important;
+}
+
+.job-list {
+    padding: 0px;
+}
+
+.job-list>li {
+    list-style-type: none;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.job-list-type {
+    color: #18e22e;
+}
+
+.job-list-title {
+    color: #2B7FC3;
+}
+
+.job-list-content {
+    display: block;
+}
+
+.job-list-left {
+    /* float: right; */
+}
+
+.job-list-right {
+    float: right;
+}
